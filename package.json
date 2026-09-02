@@ -12,7 +12,9 @@
     "@ai-sdk/mcp": "^2.0.43",
     "@modelcontextprotocol/sdk": "^1.30.0",
     "ai": "^7.0.90",
+    "drizzle-orm": "^1.0.0-rc.4",
     "next": "16.3.4",
+    "postgres": "^3.4.9",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "zod": "^4.5.4"
@@ -22,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^1.0.0-rc.4",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
     "tailwindcss": "^4",
@@ -33,6 +36,7 @@
     "unrs-resolver"
   ],
   "trustedDependencies": [
+    "esbuild",
     "sharp",
     "unrs-resolver"
   ]
