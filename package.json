@@ -9,7 +9,11 @@
     "lint": "eslint",
     "format:write": "prettier . --check --write",
     "check:types": "tsc --noEmit",
-    "check": "bun run check:types && bun run lint && bun run format:write"
+    "check": "bun run check:types && bun run lint && bun run format:write",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@ai-sdk/mcp": "^2.0.43",
@@ -24,6 +28,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/bun": "^1.4.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
